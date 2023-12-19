@@ -1,0 +1,23 @@
+.studydropdown,.resourcedropdown{
+    display: none;
+    
+
+}
+.studyoption:hover + .studydropdown{
+    display:block ;
+    color:white;
+    
+    
+}
+.resourceoption:hover + .resourcedropdown{
+    display:block ;
+    color:white;
+
+}
+.studydropdown:hover, .resourcedropdown:hover{
+    display: block;
+    color:white;
+}
+.studydropdown>ul>li:hover,.resourcedropdown>ul>li:hover{
+    color:white;
+}
